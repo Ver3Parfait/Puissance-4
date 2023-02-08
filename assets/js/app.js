@@ -83,7 +83,7 @@ function checkWin() {
         cellForEach[i + cellNumber * 3] &&
         cellForEach[i + cellNumber * 3].style.backgroundColor == "red")
     ) {
-      console.log('WIn');
+      alert(`Le joueur ${player} a gagner .`)
       winner = 1
     } else if (
       (cellForEach[i].style.backgroundColor == "yellow" &&
@@ -118,7 +118,7 @@ function checkWin() {
         cellForEach[i + cellNumber * 3] &&
         cellForEach[i + cellNumber * 3].style.backgroundColor == "yellow")
     ) {
-console.log('Win');
+      alert(`Le joueur ${player} a gagner .`)
 winner = 2
     }else if(winner == 1 || winner == 2){
       cellForEach.style.backgroundColor == "yellow"
