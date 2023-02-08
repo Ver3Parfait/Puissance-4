@@ -158,9 +158,7 @@ function PlayGame() {
         cellForEach[i + 1].style.backgroundColor == "red"
        ){
           checkWin()
-          console.log('yes');
       }
   }
   }
-  console.log(cellForEach);
 }
