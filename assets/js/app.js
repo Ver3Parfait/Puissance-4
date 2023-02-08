@@ -121,7 +121,7 @@ function checkWin() {
       window.alert(`Le joueur ${player} a gagner .`)
 winner = 2
     }else if(winner == 1 || winner == 2){
-      cellForEach.style.backgroundColor == "yellow"
+      cellForEach[i].style.backgroundColor == "yellow"
     }
   }
 }
